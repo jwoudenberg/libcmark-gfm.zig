@@ -1,4 +1,4 @@
-name: Generate DotSlash
+name: CI
 
 on:
   push:
