@@ -1,0 +1,19 @@
+.{
+    .name = "libcmark-gfm",
+    .version = "0.1.0",
+    .dependencies = .{
+        .@"cmark-gfm" = .{
+            .url = "https://github.com/github/cmark-gfm/archive/refs/tags/0.29.0.gfm.13.tar.gz",
+            .hash = "1220e68cb2858ddd239618a3b95953b8e086a1156fa78d3a0ac2c3fceb90159319aa",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "include",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+    .minimum_zig_version = "0.13.0",
+}
